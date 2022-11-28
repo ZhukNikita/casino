@@ -1,0 +1,44 @@
+.header h1{
+    color: #732222;
+    padding: 0 50px;
+
+    margin: 5px 0 5px 0;
+    font-family: Brush Script MT, Brush Script Std, cursive ;
+    font-size: 70px;
+}
+.header{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header ul li{
+    font-size: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.header ul li svg:last-child{
+    width: 35px;
+    height: 35px;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.login{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logout{
+    display: flex ;
+    align-items: center;
+    border-radius:4px;
+    cursor: pointer;
+}

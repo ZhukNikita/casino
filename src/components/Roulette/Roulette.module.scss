@@ -1,0 +1,95 @@
+.body{
+    background-color: #f47070;
+    width: 70%;
+    height: 600px;
+    border-radius: 16px;
+}
+.game{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cells{
+    position: relative;
+    overflow: hidden;
+    width: 750px;
+    height: 80px;
+    background: #13161a;
+    border-radius: 8px;
+    svg{
+        position: absolute;
+        transform: rotate(180deg );
+        top: -3px;
+        left: 50%;
+        color:white;
+        z-index: 2;
+    }
+}
+
+.item{
+    height: 76px;
+    width: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border: 2px solid gold;
+}
+
+.cells img{
+    object-fit: contain;
+}
+.cells ul {
+    display: inline-flex;
+    position: relative;
+    left: 0;
+    transition: 5s cubic-bezier(.21,.53,.29,.99);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width: 150px;
+    height: 150px;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.start{
+    margin-top: 15px;
+    background: #2f2f2f;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.red{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.black{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+}
+.history{
+    gap: 1rem;
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: left;
+}

@@ -1,0 +1,30 @@
+.content{
+  width: 65%;
+    background-color: #f47070;
+  border-radius: 8px;
+  height: 700px;
+}
+.content hr{
+  border: none ;
+  border-bottom: 1px solid #262f34;
+  padding: 0;
+}
+.games{
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.game{
+  margin-top: 50px;
+  width: 30%;
+  height: 200px;
+  border-radius: 8px;
+  background-color: #262f34;
+}
+.game img{
+  border-radius: 8px;
+
+}
